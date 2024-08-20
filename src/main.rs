@@ -23,7 +23,12 @@ fn main() {
  // --- Strings  
   let string  = String::from("String Test");
   println!("{}", string);
-    
+
+
+  for i in 0..10 {
+    println!("Number is {}", i);
+  }
+     
 
 }
 
