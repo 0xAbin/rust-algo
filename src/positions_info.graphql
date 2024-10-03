@@ -1,0 +1,11 @@
+query PositionsInfo {
+  EventLog1(limit: 1000) {
+    eventData_addressItems_items
+    eventData_boolItems_items
+    eventData_bytes32Items_items
+    eventData_bytesItems_items
+    eventData_intItems_items
+    eventData_stringItems_items
+    eventData_uintItems_items
+  }
+}
