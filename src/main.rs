@@ -5,7 +5,7 @@ use std::{fs, io::Write, path::Path, time::Duration};
 use tokio::time;
 use std::io::{stdout, Write as IoWrite};
 
-const GRAPHQL_URL: &str = "https://indexer.avituslabs.xyz/v1/graphql";
+const GRAPHQL_URL: &str = "http://35.187.231.22:8080/v1/graphql";
 
 #[derive(Debug, Clone)]
 struct EventLogItem {
